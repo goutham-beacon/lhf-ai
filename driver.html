@@ -1,0 +1,96 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>LHF High-Claim Vehicles</title>
+<style>
+/* Layout: single phone-width column. Video first, then the five steps as a checklist, then the vehicle list. */
+:root {
+  --bg: #0c2b3b; --surface: #163a4e; --ink: #ffffff; --ink2: #ccd1d9; --muted: #8fa0ae;
+  --accent: #cb333b; --red: #9f282e; --green: #2eb870; --line: #2a4a60;
+  --font: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 17px; line-height: 1.45; padding-block: 20px 48px; padding-inline: 16px; }
+.wrap { max-width: 520px; margin: 0 auto; display: grid; gap: 22px; }
+.brand { display: flex; align-items: center; justify-content: space-between; }
+.brand .lhf { display: inline-flex; align-items: baseline; gap: 8px; font-weight: 800; font-size: 26px; letter-spacing: 0.02em; }
+.brand .lhf b { color: var(--accent); font-weight: 900; }
+.brand .lhf small { display: block; font-size: 11px; font-weight: 700; background: var(--accent); color: #fff; padding: 1px 6px; border-radius: 3px; letter-spacing: 0.02em; }
+.brand a { color: var(--ink2); text-decoration: none; font-weight: 600; font-size: 15px; }
+h1 { font-size: 34px; line-height: 1.08; margin: 0; font-weight: 800; letter-spacing: -0.01em; text-wrap: balance; }
+h1 span { color: var(--accent); }
+.lede { color: var(--ink2); margin: 8px 0 0; }
+.video { background: #000; border-radius: 16px; overflow: hidden; aspect-ratio: 9 / 16; max-width: 100%; }
+.video video { width: 100%; height: 100%; display: block; object-fit: contain; }
+.steps { display: grid; gap: 10px; }
+.step { display: grid; grid-template-columns: 44px 1fr; gap: 12px; background: var(--surface); border-radius: 14px; padding: 14px 14px 14px 12px; align-items: start; }
+.step .n { width: 40px; height: 40px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 800; font-size: 20px; display: grid; place-items: center; }
+.step h2 { font-size: 19px; margin: 6px 0 4px; font-weight: 700; }
+.step p { margin: 0; color: var(--ink2); }
+.rule { margin-top: 8px; font-weight: 700; color: var(--ink); background: var(--red); border-radius: 8px; padding: 6px 10px; display: inline-block; font-size: 15px; }
+.rule.ok { background: var(--green); }
+.rule.amber { background: var(--accent); color: #fff; }
+.groups { display: grid; gap: 12px; }
+.group { background: var(--surface); border-radius: 14px; padding: 14px 16px; }
+.group .eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin: 0 0 2px; }
+.group h3 { margin: 0 0 8px; font-size: 18px; }
+.group ul { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px; color: var(--ink2); }
+.foot { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 14px; }
+.foot strong { color: var(--ink2); }
+</style>
+
+<div class="wrap">
+  <div class="brand"><span class="lhf"><b>LHF</b><span>HANSEN'S<small>Vehicle Relocation</small></span></span><a href="https://lhf.com">lhf.com</a></div>
+
+  <div>
+    <h1>High-claim vehicles: <span>what to do</span></h1>
+    <p class="lede">Some models get a damage claim 10 to 17 times more often than average. Watch the 60-second video, then use the five steps every time.</p>
+  </div>
+
+  <div class="video">
+    <video controls playsinline preload="metadata" poster="" src="lhf-high-claim-vehicles.mp4"></video>
+  </div>
+
+  <div class="steps">
+    <div class="step"><div class="n">1</div><div>
+      <h2>Inspect before you touch it</h2>
+      <p>Walk around. Take 8 photos: front, rear, both sides, all four corners. Mark every scratch and chip on the inspection report.</p>
+      <span class="rule">Not marked at pickup = it is ours.</span>
+    </div></div>
+    <div class="step"><div class="n">2</div><div>
+      <h2>Low cars: load slow</h2>
+      <p>Use the ramp extensions. Check the front lip clearance. Roll at walking speed.</p>
+      <span class="rule">Hear a scrape? Stop. Reset the ramp.</span>
+    </div></div>
+    <div class="step"><div class="n">3</div><div>
+      <h2>Big trucks and vans: check the fit</h2>
+      <p>Measure the height before the top deck. Fold the mirrors. Watch the dually fenders and the steps.</p>
+      <span class="rule">Not sure it fits? Put it on the bottom.</span>
+    </div></div>
+    <div class="step"><div class="n">4</div><div>
+      <h2>Secure it, then check again</h2>
+      <p>Tie down to the frame points. Keep the straps off the paint and the suspension.</p>
+      <span class="rule amber">Re-check all straps after the first 50 km.</span>
+    </div></div>
+    <div class="step"><div class="n">5</div><div>
+      <h2>At delivery</h2>
+      <p>Walk around with the receiver. Take the same 8 photos. Get the signature before you leave.</p>
+      <span class="rule ok">Photos at both ends close most claims.</span>
+    </div></div>
+  </div>
+
+  <div class="groups">
+    <div class="group">
+      <p class="eyebrow">Low cars</p>
+      <h3>Scrape on the ramp</h3>
+      <ul><li>Nissan GT-R</li><li>Chevrolet Corvette</li><li>Chevrolet Camaro</li><li>Mitsubishi Lancer</li><li>Hyundai Veloster</li><li>Chevrolet Cobalt</li></ul>
+    </div>
+    <div class="group">
+      <p class="eyebrow">Big trucks and vans</p>
+      <h3>Tight on the deck</h3>
+      <ul><li>Ford F-450 dually</li><li>Ford Econoline cutaway</li><li>Dodge Ram 1500</li><li>Chevrolet Tahoe</li><li>Cadillac Escalade</li><li>Jeep Wrangler</li></ul>
+    </div>
+  </div>
+
+  <p class="foot"><strong>Questions?</strong> Call dispatch before you load. This list comes from Hansen's claims data and is updated as the numbers change.</p>
+</div>
+</html>
